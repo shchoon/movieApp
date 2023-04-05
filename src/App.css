@@ -1,38 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
+  background-color: #033653;
+}
+
+.App .navbar {
+  margin-top: 1px;
+}
+.App button:hover {
+  opacity: 0.3;
+}
+ 
+.categoryList {
+  border: 1px solid grey;
+  font-weight: bold;
+  width: 100px;
+  margin-left: 300px;
+}
+
+.categoryList li {
+  list-style: none;
+  color: black;
+  cursor: pointer;
+}
+
+.categoryList li:hover {
+ opacity: 0.3;
+}
+
+.AnimationCard h2, .ComedyCard h2, .ClassicCard h2 {
+  font-weight: bold;
   text-align: center;
+  color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.AnimationCard, .ComedyCard, .ClassicCard {
+  border: 1px solid purple;
+  padding: 10px 0;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.AnimationCard button, .ComedyCard button, .ClassicCard button {
+  position: absolute;
+  right: 100px;
+  bottom: 40%; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.AnimationCard .container, .ComedyCard .container, .ClassicCard .container {
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.ComedyCard, .AnimationCard, .ClassicCard {
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+

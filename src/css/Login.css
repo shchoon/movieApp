@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.loginPage {
+  background-color: #033653;
+  height: 670px;
+}
+
+.border {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 300px;
+    height: 350px;
+    border: 3px solid;
+    box-shadow: 5px 10px #888888;
+}
+
+.border h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.border .loginForm {
+    text-align: center;
+}
+
+.border .loginButton {
+    margin-top: 10px;
+}

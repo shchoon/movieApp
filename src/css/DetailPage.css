@@ -1,0 +1,66 @@
+.detailPage {
+    position: relative;
+    height: 600px;
+}
+
+.detailPage h1 {
+    position: absolute;
+    left: 10%;
+    top: 2%;
+    font-weight: bold;
+}
+.nextIcon {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+}
+
+.previousIcon {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.nextIcon:hover, .previousIcon:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.detailPage h2 {
+    position: absolute;
+    left: 60%;
+    top: 5%;
+    font-weight: bold;
+    color: white;
+}
+.detailPage img {
+    position: absolute;
+    left: 10%;
+    top: 10%
+}
+
+.detailPage .rentButton {
+    position: absolute;
+    right: 30%;
+    bottom: 10%;
+    width: 130px;
+    height: 138px;
+}
+
+.detailPage .buyButton {
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    width: 130px;
+    height: 138px;
+}
+
+.detailPage .rentButton button:hover {
+    opacity: 0.5;
+}
+
+.detailPage .rentButton button, .detailPage .buyButton button {
+    width: 130px;
+}
